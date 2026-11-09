@@ -85,3 +85,32 @@ Gợi ý vai trò (một người có thể giữ nhiều vai): điều phối t
 - Không vội đề xuất giải pháp khi chưa định hình rõ vấn đề
 - Một vấn đề lớn có thể bao gồm nhiều mắt xích nhỏ, và mỗi mắt xích nhỏ có thể trở thành một bài toán của riêng nó
 - Cần cải thiện kỹ năng làm việc nhóm và sử dụng Git trong làm việc nhóm: Tình trạng người này đè file kia, conflict xảy ra liên tục làm chậm tiến độ thực hiện.
+
+---
+
+### Phạm Quỳnh Anh - 2A202603671
+
+**Phần việc phụ trách:**
+
+- **CP1 – CP2 (Cá nhân):** Scan 6 problems theo 4 lăng kính, xây dựng Top 3 Problem Cards + quy trình nháp và thực hiện phản biện với AI.
+- **CP3 (Hội tụ nhóm):** Pitch 3 candidate (`#1, #2, #3`), đặt câu hỏi phản biện sâu cho bài `#4` (Vũ Đức Minh) và `#8` (Nguyễn Văn Nhi); bảo vệ thành công bài toán `#3` (được nhóm chọn với 34/35 điểm); tham gia gom cụm và dựng cây OST rút gọn.
+- **CP4 (Kiểm chứng & Research):** Tham gia phỏng vấn người học theo kỹ thuật *The Mom Test*, ghi nhận tín hiệu phản bác quan trọng về nỗi sợ sai công thức và thói quen dùng tài liệu cũ; đề xuất bổ sung công cụ OCR chuyên biệt (*Mathpix*) vào bảng research.
+- **CP5 – CP6 (Quy trình, Problem Statement & Quyết định):** Phụ trách chính xây dựng sơ đồ Quy trình Trước/Sau (Before/After) chỉ rõ bottleneck chiếm 78% thời gian; hoàn thiện phần Boundary nghiêm ngặt và 4 tiêu chí eval nhị phân; đề xuất chọn mức Workflow và chốt quyết định Go (phạm vi nhỏ) kèm 2 ngưỡng dừng đo được.
+
+**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
+
+- Đóng góp bài toán chính của nhóm (Card #3 - Tổng hợp kiến thức và công thức cốt lõi từ slide bài giảng khi ôn thi) đạt điểm cao nhất (34/35) tại bảng Shortlist.
+- Phụ trách chính xây dựng sơ đồ Quy trình Hiện tại (Before: 5 bước, 270 phút) và Quy trình Tương lai (After: Workflow 5 bước, 90–110 phút), bảng so sánh rủi ro Before/After.
+- Đóng góp trực tiếp vào Problem Statement: xây dựng 4 Tiêu chí đánh giá đầu ra (Math Accuracy $\ge 95\%$, Traceability 100%, Coverage $\ge 90\%$, Conciseness) và Boundary nghiêm ngặt (không tự suy diễn ngoài slide, không đổi ký hiệu).
+- Đề xuất thiết lập 2 ngưỡng dừng đo được cho quyết định Go (nếu thời gian > 180' hoặc tỷ lệ sai công thức > 10% thì dừng pilot và quay về No AI).
+
+**Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
+
+- File báo cáo cá nhân: [report/individual/2A202603671_PhamQuynhAnh.md](report/individual/2A202603671_PhamQuynhAnh.md).
+- File phỏng vấn kiểm chứng: [report/assets/cp4-interview-snapshot.md](report/assets/cp4-interview-snapshot.md) (Người được hỏi 4 & 5).
+- Sơ đồ quy trình Before/After, Bảng rủi ro mới phát sinh và 4 Tiêu chí eval nhị phân trong báo cáo nhóm.
+
+**Điều mình học được từ phần nhóm:**
+
+- Nhận ra tầm quan trọng sống còn của việc bóc tách bản chất vấn đề và không bị cuốn vào "bẫy solution-first" (muốn làm chatbot đa năng).
+- Thấy rõ người dùng coi trọng **tính chính xác và khả năng truy vết nguồn gốc (Traceability)** hơn là tốc độ đơn thuần. Việc ứng dụng AI vào bài toán học thuật bắt buộc phải có con người kiểm duyệt (Human-in-the-loop) và công cụ OCR chuyên biệt chứ không thể phó mặc hoàn toàn cho LLM.
