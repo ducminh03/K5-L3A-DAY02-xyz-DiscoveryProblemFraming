@@ -1,0 +1,8 @@
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+group_report_CP6.md
